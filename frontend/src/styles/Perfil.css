@@ -1,0 +1,335 @@
+.perfil-home-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.perfil-sidebar {
+  width: 250px;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.perfil-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.perfil-logo {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #8b5cf6;
+  margin: 0;
+}
+
+.perfil-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.perfil-nav-section {
+  margin-bottom: 1.5rem;
+}
+
+.perfil-nav-section-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.perfil-nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  color: #4b5563;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.perfil-nav-item:hover {
+  background-color: #f3e8ff;
+}
+
+.perfil-nav-item.perfil-active {
+  color: #8b5cf6;
+  background-color: #f3e8ff;
+  font-weight: 600;
+}
+
+.perfil-nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.85rem;
+}
+
+.perfil-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.perfil-navbar {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  height: 3rem;
+}
+
+.perfil-navbar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.perfil-navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.perfil-navbar-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4b5563;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.perfil-navbar-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.perfil-page-content {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+.perfil-content-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.perfil-user-profile-container {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.perfil-user-profile-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6b46c1;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.perfil-profile-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.perfil-profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.perfil-profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 4px solid #8b5cf6;
+}
+
+.perfil-profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.perfil-profile-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin: 0;
+}
+
+.perfil-profile-info, .perfil-profile-details {
+  background-color: #f3e8ff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.perfil-profile-info h3, .perfil-profile-details h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6b46c1;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #8b5cf6;
+  padding-bottom: 0.5rem;
+}
+
+.perfil-profile-info p, .perfil-profile-details p {
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+}
+
+.perfil-profile-info p strong, .perfil-profile-details p strong {
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.perfil-edit-profile-button, .perfil-save-profile-button, .perfil-cancel-edit-button {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.perfil-edit-profile-button:hover, .perfil-save-profile-button:hover {
+  background-color: #7c3aed;
+}
+
+.perfil-cancel-edit-button {
+  background-color: #ef4444;
+  margin-left: 0.5rem;
+}
+
+.perfil-cancel-edit-button:hover {
+  background-color: #dc2626;
+}
+
+.perfil-edit-profile-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3e8ff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.perfil-edit-profile-form h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6b46c1;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.perfil-edit-profile-form label {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.perfil-edit-profile-form input, .perfil-edit-profile-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #d6bcfa;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: #ffffff;
+  transition: border-color 0.3s;
+}
+
+.perfil-edit-profile-form input:focus, .perfil-edit-profile-form textarea:focus {
+  outline: none;
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.5);
+}
+
+.perfil-edit-profile-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.perfil-button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .perfil-home-container {
+    flex-direction: column;
+  }
+
+  .perfil-sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .perfil-main-content {
+    height: calc(100vh - 60px);
+  }
+
+  .perfil-content-container {
+    padding: 1rem;
+  }
+
+  .perfil-user-profile-container {
+    padding: 1rem;
+  }
+
+  .perfil-profile-card {
+    padding: 1rem;
+  }
+
+  .perfil-profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .perfil-button-group {
+    flex-direction: column;
+  }
+
+  .perfil-cancel-edit-button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
