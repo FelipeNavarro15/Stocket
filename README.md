@@ -3,6 +3,7 @@
 **“Conecta y Crece con Stocket”**
 
 Plataforma B2B que elimina intermediarios en la cadena de suministro. Permite a almacenes y distribuidoras negociar directamente, gestionar pedidos y facturas, y aprovechar análisis de datos para tomar decisiones inteligentes.
+<img width="1887" height="1027" alt="image" src="https://github.com/user-attachments/assets/ebd926a9-4612-4561-90c9-b55f4bd0c835" />
 
 ---
 
